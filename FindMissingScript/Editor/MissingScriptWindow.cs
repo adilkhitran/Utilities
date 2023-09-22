@@ -65,7 +65,7 @@ public class MissingScriptWindow : EditorWindow
 
         Scene currentScene = SceneManager.GetActiveScene();
 
-        var allob = FindObjectsOfType<Transform>();
+        var allob = FindObjectsOfType<Transform>(true);
 
         foreach (Transform g in allob)
         {
