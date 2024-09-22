@@ -119,6 +119,7 @@ namespace KHiTrAN
                 return;
 
             SerializedProperty name = sp.FindPropertyRelative("name");
+            SerializedProperty audioTime = sp.FindPropertyRelative("audioTime");
             SerializedProperty clip = sp.FindPropertyRelative("clip");
             SerializedProperty type = sp.FindPropertyRelative("type");
 
@@ -151,6 +152,7 @@ namespace KHiTrAN
                 GUILayout.Space(11);
                 EditorGUILayout.BeginVertical();
                 EditorGUILayout.PropertyField(clip);
+                EditorGUILayout.PropertyField(audioTime);
                 EditorGUILayout.PropertyField(name);
                 EditorGUILayout.PropertyField(type);
 

@@ -3,16 +3,20 @@
     public enum SoundNames
     {
         NONE,
-        MenuBG,
         GamePlayBG,
-        LevelComplete,
-        LevelFail,
         ButtonClick,
         PopupAppear,
         ButtonAppear,
         UpgradeButtonClick,
         ButtonLock,
-        CoinCollect
+        LevelUp,
+        spendMoney,
+        interaction,
+        CollectItem,
+        DropItem,
+        CashRegister,
+        GemRegister,
+        AreaBuild,
     }
 
     public enum SoundType
